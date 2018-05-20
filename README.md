@@ -4,9 +4,13 @@ This vagrant file can be used to create an OpenFaaS sandbox (deployed to Docker 
 ## Installation
 
 1) Download the latest VirtualBox installer from [here](https://www.virtualbox.org/wiki/Downloads).
+
 2) Run VirtualBox installer with defaults.
+
 3) Download the latest Vagrant installer from [here](https://www.vagrantup.com/downloads.html).
+
 4) Run the Vagrant installer with defaults.
+
 5) From the command prompt, run the following to create the VM:
 ```sh
 vagrant up
