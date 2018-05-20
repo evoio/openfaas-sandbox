@@ -16,12 +16,18 @@ vagrant up
 
 ### CLI
 
-For simplicity, the OpenFaaS CLI should be accessed from the sandbox itself - Windows requires a separater package manager installing before the CLI can be installed.
+For simplicity, the [OpenFaaS CLI](https://github.com/openfaas/faas-cli) should be accessed from the sandbox itself - Windows requires a [package manager](https://github.com/lukesampson/scoop) installing before the CLI can be installed.
 
-Use the following to connect to the VM and use the OpenFaaS CLI:
+Use the following to connect to the VM:
 
 ```sh
 vagrant ssh
+```
+
+Once connected run the following for help:
+
+```sh
+faas --help
 ```
 
 The "data" folder in this repo is mapped to "/vagrant_data" on the VM. Therefore any data (e.g. code for functions) copied here will be accessible from the CLI within the VM.
