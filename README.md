@@ -18,6 +18,10 @@ vagrant up
 
 ## Using OpenFaaS
 
+### General
+
+The Vagrantfile specifies __2GB RAM__ for the VM. This should be enough for testing purposes only. Should it need to be increased (or decreased) ammend the "vb.memory" value in the Vagrantfile accordingly. 
+
 ### CLI
 
 For simplicity, the [OpenFaaS CLI](https://github.com/openfaas/faas-cli) should be accessed from the sandbox itself - Windows requires a [package manager](https://github.com/lukesampson/scoop) installing before the CLI can be installed.
