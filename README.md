@@ -38,4 +38,4 @@ The "data" folder in this repo is mapped to "/vagrant_data" on the VM. Therefore
 
 ### UI
 
-The OpenFaas UI is accessible using [here](http://localhost:8080/ui/). The Prometheus UI can also be accessed [here](http://localhost:9090/graph).
+The OpenFaas UI is accessible [here](http://localhost:8080/ui/) and the Prometheus UI can also be accessed [here](http://localhost:9090/graph).
