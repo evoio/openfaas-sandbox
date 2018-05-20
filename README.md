@@ -39,3 +39,11 @@ The "data" folder in this repo is mapped to "/vagrant_data" on the VM. Therefore
 ### UI
 
 The OpenFaas UI is accessible [here](http://localhost:8080/ui/) and the Prometheus UI can be accessed [here](http://localhost:9090/graph).
+
+## Uninstall
+
+1) From the command prompt, run the following:
+
+```sh
+vagrant destroy -f
+```
